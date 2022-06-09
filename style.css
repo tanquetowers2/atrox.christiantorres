@@ -1,0 +1,664 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Oswald:wght@700&display=swap');
+
+/* *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}*/
+
+body {
+    background-color: black;
+    padding-bottom: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    flex-wrap: wrap;
+}
+
+.circle{
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 175px;
+    height: 185px;
+    background-image: url(./elementos/eleiko.png);
+    border-radius: 50%;
+
+    animation-name: cambiarcolor;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+
+
+}
+
+.circle:hover{
+    animation-play-state: paused;
+}
+
+
+@keyframes cambiarcolor{
+   from{
+        background-color: #fff;
+
+    }
+    0%{
+        transform: translatex(0);
+    }
+
+    to{
+        background-color: rgb(255, 68, 0);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}
+
+
+
+
+/*.videotube {
+    background-color: black;
+
+    padding-top: 10%;
+    padding-left: 25%;
+     /* parallax*/
+/* background: center fixed url(/elementos/210517_ML_BLOG_community_1920x1080.jpg);}*/
+
+
+
+
+
+.texo-clase {
+    padding-left: 20%;
+}
+
+
+
+/*estilo de lista p sacar puntos etc*/
+ul {
+    list-style-type: none;
+    align-items: stretch;
+    align-content: space-between;
+}
+
+h2 {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+p {
+    color: rgb(255, 0, 0);
+}
+
+
+ol {
+    list-style-type: none;
+
+}
+
+h4 {
+    font-style: normal;
+    color: aliceblue;
+    margin-left: 10%;
+    padding-bottom: 20%;
+
+}
+
+
+
+
+.Clases-todas {
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 100px;
+    padding-left: 25%;
+    padding-bottom: 30px;
+    /* parallax*/
+    /*background: center fixed url(/elementos/210517_ML_BLOG_community_1920x1080.jpg);*/
+}
+
+
+
+.sexos {
+    padding-bottom: 15px;
+}
+
+.boton-enviar {
+    padding-top: 60px;
+}
+
+.footclases {
+    padding-top: 60px;
+}
+
+
+.titulogrupal {
+    margin-top: 300px;
+}
+
+.formulario-grupal {
+    margin-top: 300px;
+}
+
+.formularioWL {
+    margin-top: 300px;
+}
+
+.formulario-perso {
+    margin-top: 300px;
+}
+
+
+
+.anexo {
+    margin-left: 30%;
+}
+
+
+
+
+
+#estamosen {
+    color: crimson;
+    padding-left: 25%;
+    background-color: black;
+
+
+}
+
+#medrano {
+    color: rgb(255, 255, 255);
+
+    background-color: black;
+    padding-left: 25%;
+
+}
+
+
+
+.iframe {
+    background-color: black;
+    padding-top: 5%;
+    padding-left: 25%;
+    padding-bottom: 60px;
+    align-items: center;
+
+}
+
+.footeruno {
+    display: flex;
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 0%;
+
+}
+
+
+.construccion {
+    margin-top: 15%;
+    text-align: center;
+}
+
+.volve-pronto {
+    text-align: center;
+    font-size: x-large;
+}
+
+
+.construccion2 {
+    margin-left: 15%;
+
+}
+
+
+
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    /* todo lo que pase de este lo va a ocultar */
+    padding: 60px 0;
+}
+
+
+
+
+
+
+
+/*menu FLEXBOX*/
+
+.menu-navergacion {
+
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+
+
+}
+
+
+.logo-atrox {
+    display: block;
+}
+
+.enlaces li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+
+.enlaces-info li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+
+.enlaces a {
+    text-decoration: none;
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+}
+
+
+.hero {
+    height: 800px;
+    background-image: url(./elementos/210517_ML_BLOG_community_1920x1080.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 40px;
+}
+
+.contenedor-textos {
+    padding: 0px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+.boton {
+    width: 150px;
+    margin: 0 auto;
+    padding: 15px;
+    background: rgb(250, 61, 14);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: -1px 1px 7px 0px rgb(100, 100, 100);
+
+}
+
+.boton-app {
+    display: none;
+    width: 150px;
+    margin: 0 auto;
+    padding: 15px;
+    background: rgb(250, 61, 14);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: -1px 1px 7px 0px rgb(100, 100, 100);
+
+}
+
+
+.boton-appdos {
+    display: none;
+
+}
+
+
+.boton-none {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
+    background: rgb(250, 61, 14);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: -1px 1px 7px 0px rgb(100, 100, 100);
+}
+
+.boton-nonedos {
+    width: 150px;
+
+    margin: 0 auto;
+    padding: 15px;
+    background: rgb(250, 61, 14);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: -1px 1px 7px 0px rgb(100, 100, 100);
+
+}
+
+
+/*MAIN ÌNDEX GRID*/
+
+html {
+    height: 100%;
+}
+
+
+main {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    min-height: 100%;
+    /*si quiero armar una pagina completa esto va en 100% y en body iria todo en lugar de main. agregar un html en css, un height 100% para que ocupe todo*/
+}
+
+.grid-container * {
+    box-shadow: -1px 1px 7px 0px rgb(100, 100, 100);
+    border-radius: 4px;
+    margin-top: 30px;
+    padding: 80px;
+    text-align: center;
+    text-decoration: none;
+    width: 50%;
+
+
+}
+
+
+.grid-container {
+    display: grid;
+    gap: 20px;
+}
+
+
+/*INFO GRID*/
+
+#info-body {
+    *background: center fixed url(./elementos/fondonegro.jpg);
+}
+
+.titulo-info {
+    color: aliceblue;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 2.9em;
+}
+
+.container-info {
+    background-color: aliceblue;
+    width: 90%;
+    max-width: 1000px;
+    margin: 1.6em auto;
+    padding: 20px;
+    display: grid;
+    gap: 1.6em;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.container-info>.header-info,
+.container-info>.content-info,
+.container-info>.sidebar-info,
+.container-info>.footer-info,
+.container-info>div {
+    background: #fff;
+    padding: 0px;
+    border: 1px solid #000;
+}
+
+
+.container-info>.header-info,
+.container-info>.footer-info {
+
+    grid-column: 1/6;
+    background-color: rgb(255, 0, 0);
+
+}
+
+.container-info>.content-info {
+    grid-column: span 3;
+}
+
+.container-info>.sidebar-info {
+    grid-column: span 2;
+}
+
+
+.content-info>.article-info {
+    background-color: dimgray;
+    padding: 20px;
+    margin-top: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.footer-info {
+    height: 80px;
+}
+
+.h4-info {
+    color: #000;
+}
+
+.parrafo-info {
+    color: #fff;
+}
+
+
+
+/*INDEX MEDIA*/
+
+@media screen and (max-width: 1200px) {
+    .header-info{
+
+    .boton {}
+
+    .logo-atrox {
+        display: none;
+    }
+
+}
+
+
+
+@media screen and (max-width: 970px) {
+
+    .boton-none {
+        flex-wrap: wrap;
+        display: none;
+    }
+
+    .logo-atrox {
+        display: none;
+
+    }
+
+    .ocultar {
+        display: none;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 770px) {
+
+
+    .boton {
+        display: inline;
+
+    }
+
+    .wp {
+        display: none;
+    }
+
+}
+
+
+@media screen and (max-width: 620px) {
+
+
+    .boton-nonedos {
+        display: none;
+    }
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+
+    .boton-appdos {
+        display: block;
+    }
+
+    .boton-app {
+        display: block;
+    }
+
+    .enlaces {
+        display: none;
+    }
+
+    .iframe {
+        display: none;
+    }
+
+    #estamosen {
+        display: none;
+    }
+
+    #medrano {
+        display: none;
+    }
+
+    .logo-atrox {
+        display: block;
+
+
+    }
+
+    h1 {
+        display: none;
+    }
+
+    .grid-container {
+        grid-template-columns: 95%;
+        margin-left: 5%;
+
+    }
+
+}
+
+
+@media screen and (max-width: 370px) {
+
+    .boton-appdos {
+        display: block;
+    }
+
+    .boton-app {
+        display: block;
+    }
+
+    .enlaces {
+        display: none;
+    }
+
+    .iframe {
+        display: none;
+    }
+
+    #estamosen {
+        display: none;
+    }
+
+    #medrano {
+        display: none;
+    }
+
+    .logo-atrox {
+        display: block;
+
+
+    }
+
+    h1 {
+        display: none;
+    }
+
+    .grid-container {
+        grid-template-columns: 80%;
+
+    }
+
+    .footer {
+        grid-template-columns: 80%;
+
+    }
+
+}
+
+
+
+
+/*INFO MEDIA*/
+
+
+
+
+@media screen and (max-width: 800px) {
+
+.sidebar-info{
+    display: none;
+}
+
+}
+
+
+
+@media screen and (max-width: 620px) {
+
+
+    .enlaces-info {
+        display: none;
+    }
+
+    .sidebar-info{
+        display: none
+    }
+}
+
+
+
+@media screen and (max-width: 360px) {
+
+    .relacionados{
+        display: none;
+    }
+    
+    .enlaces-info{
+        display: none;
+    }
+    
+
+}
+
+
