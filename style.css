@@ -13,6 +13,18 @@ body {
     flex-wrap: wrap;
 }
 
+
+
+/*.videotube {
+    background-color: black;
+
+    padding-top: 10%;
+    padding-left: 25%;
+     /* parallax*/
+/* background: center fixed url(/elementos/210517_ML_BLOG_community_1920x1080.jpg);}*/
+
+/*animacion*/
+
 .circle{
     margin-top: 30px;
     margin-left: 20px;
@@ -52,18 +64,6 @@ body {
         transform: translateX(100%);
     }
 }
-
-
-
-
-/*.videotube {
-    background-color: black;
-
-    padding-top: 10%;
-    padding-left: 25%;
-     /* parallax*/
-/* background: center fixed url(/elementos/210517_ML_BLOG_community_1920x1080.jpg);}*/
-
 
 
 
