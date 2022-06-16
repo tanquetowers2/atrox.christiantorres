@@ -10,54 +10,153 @@
 
     <!--forma externa de css-->
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 
 <body>
     <header>
-        <nav class="menu-navergacion contenedor">
-            <div class="logo-atrox">
-                <img src="./elementos/ATROXLOGO.PNG" alt="logo-atrox" width="120px" height="75px">
+        <div class="container-fluid">
+            <div class="row">
+                <nav class="menu-navergacion contenedor">
+                    <div class="logo-atrox">
+                        <img src="./elementos/ATROXLOGO.PNG" alt="logo-atrox" width="120px" height="75px">
 
+                    </div>
+
+                    <div class="enlaces">
+                        <ul>
+                            <li><a class="boton-none" href="./pages/Info.html">INFO</li></a>
+                            <li><a class="boton-nonedos" href="./pages/Comunidad.html">COMUNIDAD</li></a>
+                            <li><a class="boton" href="./pages/Contacto.html">CONTACTO</li></a>
+                            <li><a class="boton" href="./pages/DescargarApp.html">DESCARGAR APP</li></a>
+                        </ul>
+
+                    </div>
+                </nav>
             </div>
-            
-            <div class="enlaces">
-                <ul>
-                    <li><a class="boton-none" href="./pages/Info.html">INFO</li></a>
-                    <li><a class="boton-nonedos" href="./pages/Comunidad.html">COMUNIDAD</li></a>
-                    <li><a class="boton" href="./pages/Contacto.html">CONTACTO</li></a>
-                    <li><a class="boton" href="./pages/DescargarApp.html">DESCARGAR APP</li></a>
-                </ul>
 
+            <div class="row">
+                <section class="hero">
+                    <div class="contenedor-textos">
+                        <div class="circle"></div>
+                        <h1>ENTRENAMIENTO, FITNESS Y SALUD </h1>
+                        <p class="boton-appdos">Unite a nuestra comunidad</p>
+                        <a class="boton-app" href="#">Descargar app</a>
+                    </div>
+                </section>
             </div>
-        </nav>
-
-        <section class="hero">
-            <div class="contenedor-textos">
-                <div class="circle"></div>
-                <h1>ENTRENAMIENTO, FITNESS Y SALUD </h1>
-                <p class="boton-appdos">Unite a nuestra comunidad</p>
-                <a class="boton-app" href="#">Descargar app</a>
-            </div>
-        </section>
-
+        </div>
     </header>
 
-    <Footer>
-        <nav>
-            <div>
-                <ul class="footeruno">
-                    <li> <a href="https://www.youtube.com/channel/UClmzpZ9i3vNmfW4osGICX6w">Suscribite a YouTube</a>
-                    </li>
-                    <li><a href="./pages/opinion.html">Dejanos tus comentarios</a></li>
-                    <li class="ig"> <a href="https://www.instagram.com/atrox.fit/">Instagram</a></li>
-                    <li class="wp"><a href="https://wa.me/0054111556927929?text=">Whats App</a></li>
-                </ul>
+    <div class="container-fluid">
+        <div class="row">
+    
+            <div class="col-sm-3 col-md-3 col-xl-3">
+                <div class="card" >
+                    <img src="./elementos/istockphoto-626232438-612x612.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title">ENTRENAMIENTO GRUPAL</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                            card's content.</p>
+                        <a href="./pages/Clases-grupales.html" class="btn btn-primary">LO QUIERO</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-sm-3 col-md-3 col-xl-3">
+                <div class="card" >
+                    <img src="./elementos/istockphoto-637332860-612x612.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title">ENTRENAMIENTO PERSONALIZADO</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                            card's content.</p>
+                        <a href="./pages/Personalizados.html" class="btn btn-primary">LO QUIERO</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-sm-3 col-md-3 col-xl-3">
+    
+                <div class="card" >
+                    <img src="./elementos/istockphoto-637332860-612x612.jpg" class="img-thumbnail" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title">ENTRENAMIENTO WEIGHTLIFTING</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                            card's content.</p>
+                        <a href="./pages/weightlifting.html" class="btn btn-primary">LO QUIERO</a>
+                    </div>
+                </div>
     
             </div>
-        </nav>
+    
+            <div class="col-sm-3 col-md-3 col-xl-3">
+                
+                <div class="card">
+                    <img src="./elementos/istockphoto-626232438-612x612.jpg" class="img-thumbnail" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title">QUIENES SOMOS</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                            card's content.</p>
+                        <a href="./pages/Info.html" class="btn btn-primary">LO QUIERO</a>
+
+                    </div>
+                </div>
+    
+            </div>
+    
+            
+    
+            <!--<div class="d-grid gap-2">
+                <a href="pages/Clases-grupales.html" class="btn btn-primary" type="button">PROGRAMA GRUPAL</a>
+                <a href="pages/weightlifting.html" class="btn btn-primary" type="button">PROGRAMA WEIGHTLIFTING</a>
+                <a href="pages/Personalizados.html" class="btn btn-primary" type="button">PROGRAMA PERSONALIZADO</a>
+    
+    
+            </div>-->
+    
+    
+            <!--<main class="grid-container">
+            
+                <a class="personalizado boton" href="./pages/Personalizados.html">PROGRAMA PERSONALIZADO</a>
+    
+                <a class="grupal boton" href="./pages/Clases-grupales.html">PROGRAMA GRUPAL</a>
+    
+                <a class="weightlifting boton" href="./pages/weightlifting.html">PROGRAMA WEIGHTLIFTING</a> 
+            </main> -->
+    
+        </div>
+    
+        <div>
+            <h2 id="estamosen">ESTAMOS EN:</h2>
+            <h3 id="medrano">Av. Medrano 246, CABA</h3>
+    
+        </div>
+
+    <Footer>
+        <div class="container-fluid">
+            <div class="row">
+                <nav>
+                    <div>
+                        <ul class="footeruno">
+                            <li> <a href="https://www.youtube.com/channel/UClmzpZ9i3vNmfW4osGICX6w">Suscribite a
+                                    YouTube</a>
+                            </li>
+                            <li><a href="./pages/opinion.html">Dejanos tus comentarios</a></li>
+                            <li class="ig"> <a href="https://www.instagram.com/atrox.fit/">Instagram</a></li>
+                            <li class="wp"><a href="https://wa.me/0054111556927929?text=">Whats App</a></li>
+                        </ul>
+
+                    </div>
+                </nav>
+            </div>
+        </div>
     </Footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
 </body>
 
 
@@ -68,31 +167,16 @@
             allowfullscreen></iframe>-->
 
 
-<main class="grid-container">
-    <a class="personalizado boton" href="./pages/Personalizados.html">PROGRAMA PERSONALIZADO</a>
 
-    <a class="grupal boton" href="./pages/Clases-grupales.html">PROGRAMA GRUPAL</a>
-
-    <a class="weightlifting boton" href="./pages/weightlifting.html">PROGRAMA WEIGHTLIFTING</a>
-</main>
-
-
-
-<div>
-    <h2 id="estamosen">ESTAMOS EN:</h2>
-    <h3 id="medrano">Av. Medrano 246, CABA</h3>
+    <div class="iframe">
+        </ol>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.8539230102397!2d-58.42401648423668!3d-34.607855165225104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca6095c6c98d%3A0x8731c95753315e89!2sAv.%20Medrano%20246%2C%20C1179AAD%20CABA!5e0!3m2!1ses!2sar!4v1652358865436!5m2!1ses!2sar"
+            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
 
 </div>
-
-<div class="iframe">
-    </ol>
-    <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.8539230102397!2d-58.42401648423668!3d-34.607855165225104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca6095c6c98d%3A0x8731c95753315e89!2sAv.%20Medrano%20246%2C%20C1179AAD%20CABA!5e0!3m2!1ses!2sar!4v1652358865436!5m2!1ses!2sar"
-        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div>
-
-
 
 
 
